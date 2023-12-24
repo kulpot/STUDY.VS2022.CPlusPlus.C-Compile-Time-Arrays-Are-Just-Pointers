@@ -9,14 +9,14 @@ using std::endl;
 void main()
 {
 	int ages[4];		// ages is the address of the first element of the array
-	ages[0] = 32; ages[1] = 6; ages[2] = 93; ages[3] = 32;
+	ages[0] = 37; ages[1] = 6; ages[2] = 93; ages[3] = 32;
 	int* p = ages;		// p is pointing to the same address
+	cout << *p << endl;		// output: points to first address which is 37
 	
-	
-	cout << ages << endl;
+	//cout << ages << endl;
 	//int anotherInt[4];
 	//ages = &anotherInt;		// error 
-	cout << p << endl;
+	//cout << p << endl;
 }
 
 
