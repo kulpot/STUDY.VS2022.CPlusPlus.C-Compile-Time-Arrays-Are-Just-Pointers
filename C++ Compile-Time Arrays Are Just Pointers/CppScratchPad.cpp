@@ -8,7 +8,10 @@ using std::endl;
 
 void main()
 {
-	int ages[4];
+	int ages[4];		// ages is the address of the first element of the array
+	int* p = ages;		// p is pointing to the same address
+	cout << ages << endl;
+	cout << p << endl;
 }
 
 
