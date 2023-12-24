@@ -6,7 +6,10 @@ using std::endl;
 // -------------------------------------- C++ Compile-Time Arrays Are Just Pointers ----------------------------------
 // ref link:https://www.youtube.com/watch?v=clRgx94BGHs&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=6
 
-
+void main()
+{
+	int ages[4];
+}
 
 
 
